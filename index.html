@@ -1,66 +1,217 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html class="p-0" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-  <header class="flex justify-between items-center px-4 py-4 mb-10">
-    <div id="logo" class="relative top-3">
-        <img src="./img/logo.svg" alt="" class="w-[160px] h-[64px]">
-    </div>
-    <nav class="hidden lg:block">
-        <ul class="flex justify-between gap-6 text-[#003b5c] font-bold text-2xl">
-            <li><a href="#">Practice</a></li>
-            <li><a href="#">team</a></li>
-            <li><a href="#">FAQ</a></li>
-        </ul>
-    </nav>
-    <div class="md:flex gap-4 items-center">
-        <div class="hidden md:flex gap-4 bg-[#ffec2d] text-[#003b5c] px-4 pt-[12px] pb-[8px] font-bold rounded-xl ">
-            <img src="./img/calendar.svg" alt="" class="w-[20px] h-[20px]">
-            Book an appointment
-        </div>
-        <div class="lg:hidden bg-[#ffec2d] text-[#003b5c] w-12 h-12 md:w-auto md:h-auto px-4 pt-[12px] pb-[8px] font-bold rounded-full flex justify-center md:justify-between gap-4 items-center">
-            <p class="hidden md:block">MENU</p>
-            <img class="w-6 h-6 md:w-auto md:h-auto" src="./img/hamburger.svg" alt="Menu Icon">
-          </div>          
-    </div>
-  </header>
-  
-  <section id="hero" class="relative lg:z-[-9] bg-[#edf3f6] md:pr-[130px] md:pl-[100px] lg:pr-[200px] h-[1000px] md:h-[1250px] lg:h-[1000px]">
+    <header class="flex justify-between items-center px-12 pt-8 mb-10">
 
-    <div>
-      <img class="absolute top-[-20px] md:top-[-30px] lg:top-[-60px] right-0 lg:left-[-5px]  lg:z-[-11]" src="./img/mountain-thingy.svg" alt="">
-      <h1 class="text-[#003b5c] text-6xl font-bold pt-[50px] ml-4 lg:absolute lg:left-[40%] lg:top-[50px] lg:text-8xl">Welcome</h1>
-      <img class="relative right-4 rounded-xl my-4 md:left-[-130px] lg:absolute lg:top-[-40px] lg:left-[-20px] lg:w-[600px] lg:h-[400px] lg:z-[-10]" src="https://zahnarzt-wernitz.de/assets/images/zahnarztpraxis_wernitz_knut_selma_01_2023-07-10-121750_pvwf.jpg" alt="">
-      <p class="ml-4 text-[#003b5c] text-lg lg:absolute lg:left-[46%] top-[200px] lg:pr-[100px] lg:text-xl">We're glad you're here! With our cross-generational concept, specializing in the fields of general dentistry and aesthetics, all patients are welcome - from pediatric dentistry to geriatric dentistry, we tailor our treatment precisely to your needs.</p>
-    </div>
-
-    <div class="relative mt-20 mx-4 lg:top-[500px]">
-      <div class="relative h-[225px] lg:h-[500px] md:h-[400px] md:w-[100%] lg:w-[80%] mx-auto">
-        <img class="absolute left-0 bottom-0 z-1 h-[157px] w-[157px] md:h-[250px] md:w-[250px] lg:h-[300px] lg:w-[300px] object-cover rounded-xl" src="https://zahnarzt-wernitz.de/assets/transforms/imager/images/3266/zahnarztpraxis_wernitz_rezeption_jasmin_brigitte_W1400_P44-24-50-52_033b3caf8925117dd569f457a37431b4.webp" alt="">
-        <img class="absolute right-0 top-0 w-[275px] md:w-[500px] lg:w-[600px] h-[183px] md:h-[300px] lg:h-[450px]  object-cover rounded-xl" src="https://zahnarzt-wernitz.de/assets/transforms/imager/images/3160/zahnarztpraxis_wernitz_rezeption_W1000_d3867277feb154defec9b24a5714fadb.webp" alt="">
-      </div>
-
-      <div class="relative top-[-50px] md:top-[0px] lg:top-[-50px]  z-2">
-        <h1 class="text-[#003b5c] text-6xl font-bold md:flex justify-center items-center">Our practice</h1>
-        <div class="flex flex-col justify-center md:flex-row md:gap-4 text-[#003b5c] my-6">
-          <div class="md:max-w-[300px]">
-            A relaxed atmosphere, personal contact with our patients and a team with their hearts in the right place - that's what defines us. And we are proud of that.
-            <br>
-            <strong class="text-[#003b5c] hidden md:block mt-6 text-xl">More about the practice</strong>
+        <!--logo and nav bar -->
+        <div class="flex gap-24 items-center">
+          <div id="logo" class="relative top-3">
+              <img src="./img/logo.svg" alt="" class="w-[140px] h-[56px]">
           </div>
-          <div class="md:max-w-[300px]">
-            With great attention to detail, our beautiful practice was extensively renovated at the beginning of 2021. 
-            Come and visit us!
+          <nav class="hidden lg:block">
+              <ul class="flex justify-between gap-8 text-[#003b5c] font-bold text-xl">
+                  <li><a href="#">Practice</a></li>
+                  <li><a href="#">team</a></li>
+                  <li><a href="#">FAQ</a></li>
+              </ul>
+          </nav>
+        </div>  
+        <!--/logo and nav bar -->
+    
+        <!-- -->
+        <div class="md:flex gap-4 items-center">
+            <div class="hidden md:flex gap-4 bg-[#ffec2d] text-[#003b5c] px-4 pt-[12px] pb-[8px] font-bold rounded-xl ">
+                <img src="./img/calendar.svg" alt="" class="w-[20px] h-[20px]">
+                Book an appointment
+            </div>
+            <div class="lg:hidden bg-[#ffec2d] text-[#003b5c] w-12 h-12 md:w-auto md:h-auto px-4 pt-[12px] pb-[8px] font-bold rounded-full flex justify-center md:justify-between gap-4 items-center">
+                <p class="hidden md:block">MENU</p>
+                <img class="w-6 h-6 md:w-auto md:h-auto" src="./img/hamburger.svg" alt="Menu Icon">
+              </div>          
+        </div>
+    </header>  
+
+    <section id="hero" class="relative lg:z-[-9] bg-[#edf3f6] mt-32  md:pr-[130px] md:pl-[100px] lg:pr-[200px] h-[1000px] md:h-[1250px] lg:h-[1000px]">
+        <img class="absolute top-[-20px] md:top-[-30px] lg:top-[-60px] right-0 lg:left-[-5px] lg:z-[-11]" src="./img/mountain-thingy.svg" alt="">
+    
+        <div>
+          <h1 class="text-[#003b5c] text-6xl font-bold pt-[50px] ml-4 lg:absolute lg:left-[40%] lg:top-[50px] lg:text-8xl">Welcome</h1>
+          <img class="relative right-4 rounded-xl my-4 md:left-[-130px] lg:absolute lg:top-[-70px] lg:left-[-20px] lg:w-[500px] lg:h-[350px] lg:z-[-10]" src="https://zahnarzt-wernitz.de/assets/images/zahnarztpraxis_wernitz_knut_selma_01_2023-07-10-121750_pvwf.jpg" alt="">
+          <p class="ml-4 text-[#003b5c] text-lg lg:absolute lg:left-[49%] top-[200px] lg:pr-[100px] lg:text-xl">We're glad you're here! With our cross-generational concept, specializing in the fields of general dentistry and aesthetics, all patients are welcome - from pediatric dentistry to geriatric dentistry, we tailor our treatment precisely to your needs.</p>
+        </div>
+    
+        <div class="relative mt-20 mx-4 lg:top-[500px]">
+          <div class="relative h-[225px] lg:h-[500px] md:h-[400px] md:w-[110%] lg:w-[110%] mx-auto">
+            <img class="absolute left-0 bottom-0 z-1 h-[157px] w-[157px] md:h-[220px] md:w-[220px] lg:h-[300px] lg:w-[300px] object-cover rounded-xl" src="https://zahnarzt-wernitz.de/assets/transforms/imager/images/3266/zahnarztpraxis_wernitz_rezeption_jasmin_brigitte_W1400_P44-24-50-52_033b3caf8925117dd569f457a37431b4.webp" alt="">
+            <img class="absolute right-0 top-0 w-[275px] md:w-[400px] lg:w-[600px] h-[183px] md:h-[300px] lg:h-[450px]  object-cover rounded-xl" src="https://zahnarzt-wernitz.de/assets/transforms/imager/images/3160/zahnarztpraxis_wernitz_rezeption_W1000_d3867277feb154defec9b24a5714fadb.webp" alt="">
+          </div>
+    
+          <div class="relative top-[-50px] md:top-[0px] lg:top-[-50px]  z-2">
+            <h1 class="relative top-20 md:static text-[#003b5c] text-6xl font-bold md:flex justify-center items-center">Our practice</h1>
+            <div class="relative top-20 md:static flex flex-col justify-center md:flex-row md:gap-4 text-[#003b5c] text-xl my-6">
+              <div class="md:max-w-[300px]">
+                A relaxed atmosphere, personal contact with our patients and a team with their hearts in the right place - that's what defines us. And we are proud of that.
+                <br>
+                <strong class="text-[#003b5c] hidden md:block mt-6 text-xl">More about the practice</strong>
+              </div>
+              <div class="md:max-w-[300px]">
+                With great attention to detail, our beautiful practice was extensively renovated at the beginning of 2021. 
+                Come and visit us!
+              </div>
+            </div>
+            <strong class="relative top-20 md:static text-[#003b5c] md:hidden mt-6 text-xl">More about the practice</strong>
           </div>
         </div>
-        <strong class="text-[#003b5c] md:hidden mt-6 text-xl">More about the practice</strong>
-      </div>
-    </div>
-    <img class="absolute bottom-[-10px] md:bottom-[-30px] lg:bottom-[-60px] right-0 lg:left-[-5px]  z-[-11] rotate-180" src="./img/mountain-thingy.svg" alt="">
-  </section>
+        <img class="absolute bottom-[-10px] md:bottom-[-30px] lg:bottom-[-60px] right-0 lg:left-[-5px]  z-[-11] rotate-180" src="./img/mountain-thingy.svg" alt="">
+    </section>
+
+    <!-- md to sm screen for our team -->
+    <section class="lg:hidden relative top-[500px] px-4">
+        <h1 class="relative left-3 md:left-6 bottom-18 md:bottom-16 text-[#003b5c] text-5xl md:text-8xl font-bold z-2 inline-block">Our team</h1>
+        <div id="team-container" class="flex gap-4 md:gap-8 md:ml-8 ml-2">
+          <div class="space-y-12 md:space-y-20">
+            <div>
+              <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_knut.jpg" alt="">
+              <p class="mt-2 text-[#003b5c] font-bold">Knut Wernitz</p>
+              <p class="text-[#003b5c]">Dentist & Practice Owner</p>
+            </div>
+            <div>
+              <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_brigitte.jpg" alt="">
+              <p class="mt-2 text-[#003b5c] font-bold">Brigitte Ratajczak</p>
+              <p class="text-[#003b5c]">Reception & dental assistant</p>
+            </div>
+            <div>
+              <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_denise.jpg" alt="">
+              <p class="mt-2 mb-0 text-[#003b5c] font-bold">Denise Leyendecker</p>
+              <p class="text-[#003b5c]">Dental assistant</p>
+            </div>
+            <div>
+              <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_nasti.jpg" alt="">
+              <p class="mt-2 text-[#003b5c] font-bold">Anastasiya Gerasimenko</p>
+              <p class="text-[#003b5c]">Dental assistant</p>
+            </div>
+          </div>
+    
+          <div class="relative bottom-26 md:bottom-32">
+            <div class="space-y-12 md:space-y-20">
+              <div>
+                <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_selma.jpg" alt="">
+                <p class="mt-2 text-[#003b5c] font-bold">Selma Martens</p>
+                <p class="text-[#003b5c]">Assistant dentist</p>
+              </div>
+              <div>
+                <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_daggi.jpg" alt="">
+                <p class="mt-2 text-[#003b5c] font-bold">Dagmar Kellner</p>
+                <p class="text-[#003b5c]">Dental prophylaxis assistant</p>
+              </div>
+              <div>
+                <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_karin.jpg" alt="">
+                <p class="mt-2 mb-0 text-[#003b5c] font-bold">Karin Schlosser</p>
+                <p class="text-[#003b5c]">Dental assistant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <section class="hidden lg:block relative top-[550px] px-4 lg:pl-[50px]">
+        <h1 class="relative left-3 md:left-6 lg:left-42 bottom-18 md:bottom-16 text-[#003b5c] text-5xl md:text-8xl lg:text-12xl font-bold z-2 lg:inline-block">Our team</h1>
+        <div id="team-container" class="flex gap-4 md:gap-8 lg:gap-12 md:ml-8 ml-2">
+          <div class="space-y-12 md:space-y-20">
+            <div>
+              <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_knut.jpg" alt="">
+              <p class="mt-2 text-[#003b5c] font-bold">Knut Wernitz</p>
+              <p class="text-[#003b5c]">Dentist & Practice Owner</p>
+            </div>
+            <div>
+              <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_brigitte.jpg" alt="">
+              <p class="mt-2 text-[#003b5c] font-bold">Brigitte Ratajczak</p>
+              <p class="text-[#003b5c]">Reception & dental assistant</p>
+            </div>
+            <div>
+              <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_denise.jpg" alt="">
+              <p class="mt-2 mb-0 text-[#003b5c] font-bold">Denise Leyendecker</p>
+              <p class="text-[#003b5c]">Dental assistant</p>
+            </div>
+          </div>
+    
+          <div class="relative bottom-26 md:bottom-32">
+            <div class="space-y-12 md:space-y-20">
+              <div>
+                <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_selma.jpg" alt="">
+                <p class="mt-2 text-[#003b5c] font-bold">Selma Martens</p>
+                <p class="text-[#003b5c]">Assistant dentist</p>
+              </div>
+              <div>
+                <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_daggi.jpg" alt="">
+                <p class="mt-2 text-[#003b5c] font-bold">Dagmar Kellner</p>
+                <p class="text-[#003b5c]">Dental prophylaxis assistant</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="relative top-20 space-y-12 md:space-y-20">
+            <div>
+              <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_karin.jpg" alt="">
+              <p class="mt-2 mb-0 text-[#003b5c] font-bold">Karin Schlosser</p>
+              <p class="text-[#003b5c]">Dental assistant</p>
+            </div>
+            <div>
+              <img class="w-[225px] h-[225px] md:w-[260px] md:h-[290px] object-cover rounded-lg" src="https://zahnarzt-wernitz.de/assets/images/team/zahnarztpraxis_wernitz_portrait_nasti.jpg" alt="">
+              <p class="mt-2 text-[#003b5c] font-bold">Anastasiya Gerasimenko</p>
+              <p class="text-[#003b5c]">Dental assistant</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="lg:pl-[100px] relative top-[500px] pl-4 md:pl-12 pr-12 md:pr-28 bg-[#edf3f6] space-y-32 pb-50">
+        <h1 class="text-[#003b5c] font-bold text-3xl md:text-5xl mb-12 md:mb-20">Three steps to your new favorite practice.</h1>
+        <div id="card-1" class="relative px-8 py-12 bg-white rounded-lg space-y-6 lg:w-[400px] shadow-xl">
+          <div class="absolute top-8 right-[-25px] z-3 bg-[#ffec2d] text-[#003b5c] w-12 h-12 md:w-16 md:h-16 px-4 py-4 text-3xl font-bold rounded-full flex justify-center gap-4 items-center">1</div>
+          <h1 class="text-[#003b5c] text-2xl lg:text-3xl font-bold">arrange a desired date</h1>
+          <p class="text-[#003b5c] text-xl lg:text-2xl">Book your desired appointment online, by phone or on site. We look forward to meeting you!</p>
+          <p class="text-[#003b5c] text-xl lg:text-2xl">And so that you don’t forget us until then, you will automatically receive an appointment reminder on your mobile phone – of course only if you wish this.</p>
+          <div class="relative inline-block">
+            <div class="relative flex gap-4 z-1 text-[#003b5c] font-bold">
+              <img class="h-6 w-6" src="./img/calendar.svg" alt="">
+              Book an appointment
+            </div>
+            <div class="absolute top-[50%] h-[70%] w-[100%] inline-block bg-yellow-100"></div>
+          </div>
+          <br> <br>
+          <div class="relative inline-block">
+            <div class="relative flex gap-4 z-1 text-[#003b5c] font-bold">
+              <img class="h-6 w-6" src="./img/call.svg.svg" alt="">
+              Call
+            </div>
+            <div class="absolute top-[50%] h-[70%] w-[100%] inline-block bg-yellow-100"></div>
+          </div>
+        </div>
+    
+        <div id="card-2" class="relative px-8 py-12 bg-white rounded-lg space-y-6 lg:w-[400px] shadow-xl lg:bottom-[400px] lg:left-[550px]">
+          <div class="absolute top-8 right-[-25px] z-3 bg-[#ffec2d] text-[#003b5c] w-12 h-12 md:w-16 md:h-16 px-4 py-4 text-3xl font-bold rounded-full flex justify-center gap-4 items-center">2</div>
+          <h1 class="text-[#003b5c] text-2xl lg:text-3xl font-bold">Fill out the medical history form</h1>
+          <p class="text-[#003b5c] text-xl lg:text-2xl">This way we can learn more about your medical history and tailor the treatment to your individual needs.</p>
+          <p class="text-[#003b5c] text-xl lg:text-2xl"><span class="underline font-bold">You can fill out the medical history form online</span> in advance  .</p>
+        </div>
+    
+        <div id="card-3" class="relative lg:bottom-[450px] lg:left-[110px] px-8 py-12 bg-white rounded-lg space-y-6 lg:w-[400px] shadow-xl">
+          <div class="absolute top-8 right-[-25px] z-3 bg-[#ffec2d] text-[#003b5c] w-12 h-12 md:w-16 md:h-16 px-4 py-4 text-3xl font-bold rounded-full flex justify-center gap-4 items-center">3</div>
+          <h1 class="text-[#003b5c] text-2xl lg:text-3xl font-bold">Come by & feel good</h1>
+          <p class="text-[#003b5c] text-xl lg:text-2xl">To start your first appointment in a relaxed manner, please arrive 5-10 minutes early. Please bring your <span class="font-bold">insurance card</span> and, if you have one, your <span class="font-bold">bonus booklet</span>. <br> Our team will welcome you and explain everything else to you.</p>
+        </div>
+    
+        <div class="lg:relative bottom-[800px] left-[600px]">
+          <img class="rounded-lg object-cover h-[350px] md:h-[600px] w-[700px] lg:w-[400px] lg:h-[450px]" src="https://zahnarzt-wernitz.de/assets/images/zahnarztpraxis_wernitz_rezeption_brigitte_01.jpg" alt="">
+        </div>
+    </section>
 </body>
 </html>
